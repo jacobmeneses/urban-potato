@@ -1,0 +1,24 @@
+{
+  "name": "urban-potato",
+  "version": "1.0.0",
+  "description": "Example of API with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobmeneses/urban-potato.git"
+  },
+  "author": "Jacob Meneses",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobmeneses/urban-potato/issues"
+  },
+  "homepage": "https://github.com/jacobmeneses/urban-potato#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
