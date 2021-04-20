@@ -9,7 +9,8 @@ app.use(cors());
 
 app.get('/files', async (req, res) => {
   const result = await client.search({
-    index: 'files'
+    index: 'files',
+    size: 100
   });
 
   const results = result.body.hits.hits.map(h => {
